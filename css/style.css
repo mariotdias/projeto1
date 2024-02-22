@@ -40,8 +40,13 @@ body {
     font-size: 3vw;
     margin-top: 25vh;
 }
+#btn2 {
+    font-size: 3vw;
+    display: none;
+}
 #foto {
     width: 15vw;
+    margin-top: 30vh;
 }
 #res2 {
     font-size: 3vw;
