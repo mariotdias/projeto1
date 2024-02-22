@@ -4,9 +4,11 @@
     padding: 0;
     margin: 0;
 }
+
 body {
-    background-color: rgb(0, 0, 0);
+   background-color: purple;
 }
+
 #nav {
     background-color: rgb(222, 184, 135);
     height: 15vh;
@@ -15,12 +17,23 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 #nav h1 {
     font-size: 3vw;
     font-family: Kdam Thmor Pro;
     transition: ease 0.5s;
 }
+
 #nav h1:hover {
     font-size: 3.2vw;
     border-bottom: solid rgb(0, 0, 0) 0.5vw;
+}
+#fbox1 {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btn1 {
+    font-size: 3vw;
 }
