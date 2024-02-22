@@ -6,8 +6,16 @@ var btn2 = window.document.getElementById('btn2');
 function click1(){
     var player  = window.prompt("Digite o nome do jogador: ");
     if(player == "cassio"){
-        res1.innerHTML = ("<img src=/imgs/cassio.png id='foto'>")
+        res1.innerHTML = ("<img src=/imgs/cassio.png id='foto'>");
         res2.innerHTML = ("Cássio Ramos!");
+    }
+    else if (player == "ceni"){
+        res1.innerHTML = ("<img src=/imgs/ceni.png id='foto'>");
+        res2.innerHTML = ("Rógerio Ceni");
+    }
+    else if(player == "fabio"){
+        res1.innerHTML = ("<img src=/imgs/fabio.png id='foto'>");
+        res2.innerHTML = ("Fábio");
     }
     else{
         window.alert("Por favor verifique se o nome digitado está correto!");
