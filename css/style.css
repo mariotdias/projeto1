@@ -31,9 +31,18 @@ body {
 #fbox1 {
     height: 20vh;
     display: flex;
+    flex-direction: column;
+    gap: 20px;
     justify-content: center;
     align-items: center;
 }
 #btn1 {
+    font-size: 3vw;
+    margin-top: 25vh;
+}
+#foto {
+    width: 15vw;
+}
+#res2 {
     font-size: 3vw;
 }
